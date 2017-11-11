@@ -1,9 +1,17 @@
 {
   "name": "ptq",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "promise task queue",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/ShinyChang/ptq.git",
   "author": "Shiny <contact@shinychang.net>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "babel index.js -o dist/index.js",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
 }
