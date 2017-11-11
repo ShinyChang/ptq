@@ -1,0 +1,9 @@
+{
+  "name": "ptq",
+  "version": "0.1.0",
+  "description": "promise task queue",
+  "main": "index.js",
+  "repository": "https://github.com/ShinyChang/ptq.git",
+  "author": "Shiny <contact@shinychang.net>",
+  "license": "MIT"
+}
